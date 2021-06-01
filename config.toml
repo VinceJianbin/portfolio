@@ -1,3 +1,44 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://vincejianbin.github.io/portfolio"
+title = "Binbin's Portfolio"
+languageCode = "zh-CN"
+theme = "hugo-creative-portfolio-theme"
+hasCJKLanguage = true
+enableGitInfo = true
+enableEmoji = true
+defaultContentDir = "posts"
+disqusShortname = "VinceJianbin-github-io"
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+
+pygmentsCodefences = true
+pygmentsUseClasses  = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsStyle = "colorful"
+
+[author]
+    name = "Jianbin Hu"
+
+[Blackfriday]
+    hrefTargetBlank = true
+
+[params]
+    # Style options: default (pink), blue, green, pink, red, sea, violet
+    # Use custom.css for your custom styling
+    style = "blue"
+    description = "Describe your website"
+    copyright = "&copy;2021 Jianbin Hu"
+    sidebarAbout = [
+    "自称21世纪野生设计师"
+    ]
+
+[[params.navlinks]]
+    name = "Home"
+    url = "portfolio/"
+    home = true
+
+[[params.navlinks]]
+    name = "About"
+    url = "about/"
+
+[params.social]
+    email       = "mailto:Jianbin2021@gmail.com"
+    github      = "https://github.com/VinceJianbin"
